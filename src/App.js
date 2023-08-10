@@ -64,7 +64,7 @@ function App() {
 
   useEffect(()=>{
     getMovieList();
-  },[]);
+  },[]);//error
 
   const onsubmitMovie=async ()=>{
     try{
