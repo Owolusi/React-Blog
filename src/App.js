@@ -126,6 +126,7 @@ getMovieList();
                      onChange={(e)=>setUpdatedTitle(e.target.value)}
                      /> 
             <button onClick={()=>updateMovieTitle(movie.id)}>update title</button>
+                       <button>hi check</button>
 
           </div>
 
